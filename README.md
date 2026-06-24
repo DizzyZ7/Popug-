@@ -16,13 +16,20 @@
 
 - `simple_analysis.py` - исполняемый модуль;
 - `tests/test_simple_analysis.py` - модульные тесты;
-- `docs/cleaning_algorithm.dot` - исходный файл блок-схемы очистки данных.
+- `requirements.txt` - список зависимостей для установки через `pip`;
+- `docs/cleaning_algorithm.drawio` - блок-схема очистки данных в формате draw.io;
+- `docs/processing_algorithm.drawio` - блок-схема обработки данных в формате draw.io;
+- `docs/cleaning_algorithm.dot` - дополнительный исходный файл блок-схемы очистки данных.
 
 ## Подготовка среды
 
 1. Установить Python 3.11 или новее.
 2. В PyCharm создать проект с виртуальным окружением.
-3. Установить библиотеки NumPy, pandas и Matplotlib.
+3. Установить библиотеки NumPy, pandas и Matplotlib:
+
+```text
+python -m pip install -r requirements.txt
+```
 
 ## Запуск
 

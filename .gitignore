@@ -13,6 +13,7 @@ dataset.csv
 dataset.txt
 results.txt
 figures/
+output/
 
 # IDE settings
 .idea/
