@@ -1,0 +1,19 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Virtual environments
+.venv/
+venv/
+
+# Generated project artifacts
+dataset.csv
+dataset.txt
+results.txt
+figures/
+
+# IDE settings
+.idea/
+.vscode/
